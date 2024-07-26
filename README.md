@@ -1,2 +1,1 @@
-# <span style="color:blue">T</span>eaching <span style="color:blue">T</span>ailored to <span style="color:blue">T</span>alent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint
-
+# <span style="color: #228be6">T</span>eaching <span style="color: #228be6">T</span>ailored to <span style="color: #228be6">T</span>alent:<br> Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint
