@@ -86,4 +86,4 @@ The logs and checkpoints are saved in ‘**tb_logs/udrs2former**‘.
 }
 ```
 ## Contact
-If you have any questions, please contact the email ephemeral182@gmail.com or sixiangchen@hkust-gz.edu.cn(will be replaced soon) 
+If you have any questions, please contact the email ephemeral182@gmail.com or schen691@connect.hkust-gz.edu.cn(will be replaced soon) 
