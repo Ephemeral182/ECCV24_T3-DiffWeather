@@ -23,8 +23,8 @@ Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 [![project](https://img.shields.io/badge/Project-Presentation-F9D371)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
 
 
-[<img src="images/ban1.png" height="320px"/>](https://imgsli.com/Mjk5ODA0) [<img src="images/ban2.png" height="320px"/>](https://imgsli.com/Mjk5ODEx)
-[<img src="images/ban3.png" height="250px"/>](https://imgsli.com/Mjk5ODEy) [<img src="images/ban7.png" height="250px"/>](https://imgsli.com/Mjk5ODE0) 
+[<img src="images/ban1.png" height="200px"/>](https://imgsli.com/Mjk5ODA0) [<img src="images/ban2.png" height="200px"/>](https://imgsli.com/Mjk5ODEx)
+[<img src="images/ban3.png" height="200px"/>](https://imgsli.com/Mjk5ODEy) [<img src="images/ban7.png" height="200px"/>](https://imgsli.com/Mjk5ODE0) 
   
 ## :fire: News
 
@@ -46,7 +46,19 @@ Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 <details>
 <summary><strong>Adverse Weather Restoration</strong> (click to expand) </summary>
 
+<img src = "images/real_metric.png"> 
+</details>
+
+<details>
+<summary><strong>Other Real Datasets</strong> (click to expand) </summary>
+
 <img src = "images/eccv_adverse_metric.png"> 
+</details>
+
+<details>
+<summary><strong>Parameters and GFLOPs</strong> (click to expand) </summary>
+
+<img src = "images/complexity.png"> 
 </details>
 
 ## Installation
