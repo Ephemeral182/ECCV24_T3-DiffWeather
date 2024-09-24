@@ -23,8 +23,8 @@ Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 [![project](https://img.shields.io/badge/Project-Presentation-F9D371)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
 
 
-[<img src="images/ban1_deg.jpg" height="320px"/>](https://imgsli.com/Mjk5ODA0) [<img src="images/ban2_deg.jpg" height="320px"/>](https://imgsli.com/Mjk5ODEx)
-[<img src="images/ban3_deg.jpg" height="320px"/>](https://imgsli.com/Mjk5ODEy) [<img src="images/ban7_deg.jpg" height="320px"/>](https://imgsli.com/Mjk5ODE0) 
+[<img src="images/ban1.jpg" height="320px"/>](https://imgsli.com/Mjk5ODA0) [<img src="images/ban2.jpg" height="320px"/>](https://imgsli.com/Mjk5ODEx)
+[<img src="images/ban3.jpg" height="320px"/>](https://imgsli.com/Mjk5ODEy) [<img src="images/ban7.jpg" height="320px"/>](https://imgsli.com/Mjk5ODE0) 
   
 ## :fire: News
 
