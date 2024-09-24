@@ -24,7 +24,7 @@ Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 
 
 [<img src="images/ban1.png" height="200px"/>](https://imgsli.com/Mjk5ODA0) [<img src="images/ban2.png" height="200px"/>](https://imgsli.com/Mjk5ODEx)
-[<img src="images/ban3.png" height="200px"/>](https://imgsli.com/Mjk5ODEy) [<img src="images/ban7.png" height="200px"/>](https://imgsli.com/Mjk5ODE0) 
+[<img src="images/ban3.png" height="180px"/>](https://imgsli.com/Mjk5ODEy) [<img src="images/ban7.png" height="180px"/>](https://imgsli.com/Mjk5ODE0) 
   
 ## :fire: News
 
@@ -42,17 +42,30 @@ Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 
 > *Figure 3. The overview of proposed method.  (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.*
 
+## Visual Comparisons
+<details>
+<summary><strong>Synthetic</strong> (click to expand) </summary>
+
+<img src = "images/eccv_adverse_syn.png"> 
+</details>
+
+<details>
+<summary><strong>Real</strong> (click to expand) </summary>
+
+<img src = "images/eccv_adverse_real.png"> 
+</details>
+
 ## Results
 <details>
 <summary><strong>Adverse Weather Restoration</strong> (click to expand) </summary>
 
-<img src = "images/real_metric.png"> 
+<img src = "images/eccv_adverse_metric.png"> 
 </details>
 
 <details>
 <summary><strong>Other Real Datasets</strong> (click to expand) </summary>
 
-<img src = "images/eccv_adverse_metric.png"> 
+<img src = "images/real_metric.png"> 
 </details>
 
 <details>
