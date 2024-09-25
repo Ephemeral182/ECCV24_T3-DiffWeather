@@ -23,15 +23,19 @@ Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 
 </br>
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
-[![supplement](https://img.shields.io/badge/Supplementary-Material-B85252)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
-[![project](https://img.shields.io/badge/Project-Presentation-F9D371)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
+[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2409.15739)
+[![supplement](https://img.shields.io/badge/Supplementary-Material-B85252)](https://arxiv.org/abs/2409.15739)
+[![project](https://img.shields.io/badge/Project-Presentation-F9D371)](https://ephemeral182.github.io/T3-DiffWeather/)
 
 
 [<img src="images/ban1.png" height="200px"/>](https://imgsli.com/Mjk5ODA0) [<img src="images/ban2.png" height="200px"/>](https://imgsli.com/Mjk5ODEx)
 [<img src="images/ban3.png" height="180px"/>](https://imgsli.com/Mjk5ODEy) [<img src="images/ban7.png" height="180px"/>](https://imgsli.com/Mjk5ODE0) 
   
 ## :fire: News
+
+- **2024.09.25**: ✅ Release our code, pretrained models and visual results, welcome to test the performance.
+- **2024.09.24**: ✅ Release our [manuscript](https://arxiv.org/abs/2409.15739).
+- **2024.8.27**: This repo is created.
 
 ## Abstract
 
