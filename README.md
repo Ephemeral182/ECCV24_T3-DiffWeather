@@ -35,7 +35,7 @@ Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 
 - **2024.09.25**: ✅ Release our code, pretrained models and visual results, welcome to test the performance.
 - **2024.09.24**: ✅ Release our [manuscript](https://arxiv.org/abs/2409.15739).
-- **2024.8.27**: This repo is created.
+- **2024.7.26**: This repo is created.
 
 ## Abstract
 
