@@ -86,7 +86,7 @@ def main():
     else:
         # pass
         # if you want to evaluate performance directly, you could opt to unannotate following code and add your .ckpt path
-        trainer.validate(diffusion,ckpt_path='/vip_media/csx/data/eccv24_adverse_weather/logs/Test1/version_1/checkpoints/Test1-epoch308-PSNR-32.844-SSIM-0.9382.ckpt')
+        trainer.validate(diffusion,ckpt_path='your path of ckpt')
     
 if __name__ == "__main__":
     main()
