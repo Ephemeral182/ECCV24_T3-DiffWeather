@@ -1,0 +1,11 @@
+numpy
+opencv-python
+scikit-image
+tqdm
+matplotlib
+tensorboardX
+pytorch_lightning==2.0.4
+timm
+einops
+pillow 
+diffusers
