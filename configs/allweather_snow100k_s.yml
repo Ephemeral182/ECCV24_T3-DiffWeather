@@ -1,0 +1,58 @@
+
+data:
+    dataset: "Snow100k-S" 
+    image_size: 256
+    channels: 3
+    num_workers: 4
+    data_dir: "/vip_media/csx/data/allweather"
+    conditional: True
+    val_data_dir: "/vip_media/csx/data/Snow100K/media/jdway/GameSSD/overlapping/test/Snow100K-S"
+    val_crop: True
+
+model:
+    img_channel: 6
+    out_channel: 3
+    width: 64
+    enc_blk_nums: [1,1,1,18]
+    middle_blk_num: 1
+    dec_blk_nums: [1,1,1,1]
+
+diffusion:
+    type: DDIM
+    beta_schedule: linear
+    beta_start: 0.0001
+    beta_end: 0.02
+    num_train_timesteps: 1000
+    eta: 0
+
+training:
+    batch_size: 3
+    snapshot_freq: 10000
+    validation_freq: 10000
+
+log_name: Snow100k-S
+
+RESUME: False
+resume_checkpoint_path: 'the path of your .ckpt'
+Trainer:
+  check_val_every_n_epoch: 1
+  accumulate_grad_batches: 1
+  max_epochs: 10000
+  max_steps: 1500000
+  accelerator: 'gpu'
+  devices: [0,1,2,3]
+  precision: '16-mixed'
+  strategy:  'ddp_find_unused_parameters_true'
+  log_every_n_steps: 1
+
+sampling:
+    # sampling batch size of validation steps in training process
+    batch_size: 20
+    last_only: True
+
+optim:
+    weight_decay: 0.000
+    optimizer: "Adam"
+    lr: 0.0002
+    amsgrad: False
+    eps: 0.0001
