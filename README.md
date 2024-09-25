@@ -116,9 +116,27 @@ pip3 install -r requirements.txt
   </tr>
  </table>
 
+## Visual Results.
+<table>
+  <tr>
+    <th align="left"></th>
+    <th align="center">Raindrop</th>
+    <th align="center">Test1</th>
+    <th align="center">Snow100K-S</th>
+    <th align="center">Snow100K-L</th>
+  </tr>
+  <tr>
+    <td align="left">Google Drive</td>
+    <td align="center"><a href="https://drive.google.com/drive/folders/1yDMkMICk_A3m_EIU8mz5zw84ubDGjAbm?usp=sharing">Download</a></td>
+    <td align="center"><a href="https://drive.google.com/drive/folders/1UfKqR2SH6zL-lBgggYK0UwgZEEhhTC__?usp=sharing">Download</a></td>
+    <td align="center"><a href="https://drive.google.com/file/d/14jkxGp5F_Mpe_afSstdpguDB9CnpFD3j/view?usp=sharing">Download</a></td>
+    <td align="center"><a href="https://drive.google.com/file/d/185k2QrYLqSZ3ypZ-sJFvMewtxt6d46p0/view?usp=drive_link">Download</a></td>
+  </tr>
+   </table>
+
 ## Quick Run
 
-:raised_hands: To simply test the demonstration with your **own images or real samples**, please modify the file path needed for testing in val_data_dir beforehand under configs/allweather_demo.yml. Then run the following code: 
+:raised_hands: To simply test the demonstration with your **own images or real samples**, please modify the file path needed for testing in val_data_dir beforehand under configs/allweather_demo.yml, and put the [pretrained_model](https://drive.google.com/file/d/1T1SGbHxPwdlqk5rs0-4lD5PVX4SCkpry/view?usp=drive_link) into pretrained folder. Then run the following code: 
 ```
 python test_diffuser_demo.py
 ```
@@ -126,7 +144,7 @@ Then results will be output to the save path of **'save_images_test_Demo'**.
 
 ## Benchmark Test
 
-:raised_hands: We provide a test script to test the results of the weight file on the **benchmarks**. Please modify the file path needed for testing in val_data_dir beforehand under configs/allweather_{benchmark}.yml.Then you can run the following code to test the performance of PSNR and SSIM: 
+:raised_hands: We provide a test script to test the results of the weight file on the **benchmarks**. Please modify the file path needed for testing in val_data_dir beforehand under configs/allweather_{benchmark}.yml, and put the [pretrained_model](https://drive.google.com/file/d/19_sTMacENPRd8VKo8M6WP4O4SGpzQGRg/view?usp=drive_link) into pretrained folder. Then you can run the following code to test the performance of PSNR and SSIM: 
 ```
 python test_diffuser_paired.py --config configs/allweather_{benchmark}.yaml
 ```
