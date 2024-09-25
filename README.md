@@ -94,7 +94,7 @@ pip3 install -r requirements.txt
 :open_file_folder: We train our model in the mixed adverse weather data and evaluate it in <strong>(Raindrop)</strong>, <strong>(Rainhaze (Test1))</strong> and <strong>(Snow100K)</strong>. The download links of datasets are provided.
 <table>
   <tr>
-    <th align="left">Adverse Weather</th>
+    <th align="left"></th>
     <th align="center">Adverse Weather</th>
     <th align="center">Raindrop</th>
     <th align="center">Test1</th>
@@ -116,14 +116,29 @@ pip3 install -r requirements.txt
   </tr>
  </table>
 
+## Quick Run
+
+:raised_hands: To simply test the demonstration with your **own images or real samples**, please modify the file path needed for testing in val_data_dir beforehand under configs/allweather_demo.yml. Then run the following code: 
+```
+python test_diffuser_demo.py
+```
+Then results will be output to the save path of **'save_images_test_Demo'**.
+
+## Benchmark Test
+
+:raised_hands: We provide a test script to test the results of the weight file on the **benchmarks**. Please modify the file path needed for testing in val_data_dir beforehand under configs/allweather_{benchmark}.yml.Then you can run the following code to test the performance of PSNR and SSIM: 
+```
+python test_diffuser_paired.py --config configs/allweather_{benchmark}.yaml
+```
+Then results will be output to the save path of **'save_images_test_{benchmark}'**.
+
 ## Training Stage
 
-:yum: Our training process is built upon pytorch_lightning, rather than the conventional torch framework. Please run the code below to begin training UDR-S<sup>2</sup>Former on various benchmarks (raindrop_syn,raindrop_real,agan,  
-rain200h,rain200l). Example usage to training our model in raindrop_real:
+:yum: Our training process is built upon pytorch_lightning, rather than the conventional torch framework. Please run the code below to begin training <i><strong>T<sup>3</sup>-DiffWeather</strong></i> on Allweather benchmarks. Please modify the file path needed for training in data_dir beforehand and testing in val_data_dir beforehand under configs/allweather_{benchmark}.yml. Example usage to training our model with Test1 benchmark in testing stage of training:
 ```python
-python train.py fit -c config/config_pretrain_raindrop_real.yaml
+python train_diffusion_pl.py --config configs/allweather_{benchmark}.yaml
 ```
-The logs and checkpoints are saved in ‘**tb_logs/udrs2former**‘.
+The logs and checkpoints are saved in ‘**logs**‘.
 
  
 ## Citation 
