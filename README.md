@@ -107,14 +107,14 @@ pip3 install -r requirements.txt
   <tr>
     <td align="left">Link</td>
     <td align="center"><a href="https://pan.baidu.com/s/1JwpxYdJlsf81tMrNjMqMXQ">Download</a></td>
-    <td align="center"><a href="https://pan.baidu.com/s/1Mk_oh53kbaFmpuh">Download</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1m7pn4K0bGSjnyzvyo5MkFQ">Download</a></td>
     <td align="center"><a href="https://pan.baidu.com/s/1rk_ZdYuMIOTYeZxqUwi0YA">Download</a></td>
     <td align="center"><a href="https://pan.baidu.com/s/1C-yASmIX5euWKzeG5I9qWw">Download</a></td>
   </tr>
     <tr>
     <td align="left">Code</td>
     <td align="center">nxpx</td>
-    <td align="center">5xge</td>
+    <td align="center">ju5a</td>
     <td align="center">ifbm</td>
     <td align="center">sacv</td>
   </tr>
